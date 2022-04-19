@@ -1,0 +1,16 @@
+//global styling
+$theme-colors: (
+  "primary": #6200ea,
+  "success": #33691e,
+  "danger":#ff0e0eec,
+  "nav":#cc537d,
+  "warning":#ffab00,
+);
+
+// Bootstrap and its default variables
+//~ represents node module folder
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    padding-top: 5rem; //srem 5*16=80px
+}

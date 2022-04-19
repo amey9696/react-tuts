@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:rgb(99, 93, 93);
+    border-radius: 5px;
+    height: 30px;
+    padding: 20px;
+}
+
+h2{
+    margin: 20px;
+}
+.navbar{
+    padding: 3px 3px;
+    text-decoration: none;/*remove underline*/
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 40px;
+    float: right;
+}
+
+.navbar:hover{
+    color: orange;
+}
+
+a.active_class{
+    color:red;
+    border-bottom:1px solid black;
+}
+
+.searchbar{
+    width:50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar input{
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.setStyle2{
+    
+}
